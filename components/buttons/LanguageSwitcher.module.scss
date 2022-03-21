@@ -1,0 +1,26 @@
+.container {
+    position: relative;
+    display: inline-block;
+    overflow: visible;
+    .current {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .list {
+        position: absolute;
+        bottom: 32px;
+        right: 0;
+        background-color: var(--background-color-1);
+        padding: var(--spacer-3);
+        width: 200px;
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    svg {
+        margin-right: var(--spacer-2);
+    }
+}

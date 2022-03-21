@@ -1,0 +1,97 @@
+$spacer-desktop: 4px, 8px, 16px, 24px, 40px, 64px, 96px, 128px, 168px, 231px, 296px, 392px;
+$spacer-mobile: 4px, 8px, 16px, 24px, 32px, 56px, 64px, 96px, 112px, 144px, 168px, 232px;
+
+$base-type-size: 17px;
+$base-scale-ratio: 1.125;
+$base-line-height: 1.5;
+
+$type-color--primary: #181818;
+$type-color--error: rgb(235, 49, 49);
+$type-color--success: rgb(37, 170, 37);
+$type-color--brand: rgb(61, 108, 236);
+
+$background-color--primary: #f5f5f5;
+$background-color--error: rgb(247, 226, 226);
+$background-color--success: rgb(206, 241, 206);
+$background-color--brand: rgb(61, 108, 236);
+
+$border-color--primary: #181818;
+$border-color--error: rgb(235, 49, 49);
+$border-color--success: rgb(37, 170, 37);
+$border-color--brand: rgb(61, 108, 236);
+
+$accent-color: rgb(61, 108, 236);
+$accent-color--light: rgb(206, 217, 245);
+
+$base-border-radius: 4px;
+
+:root {
+
+    --border-radius: #{$base-border-radius};
+    
+    --type-color-0: #{darken($type-color--primary, 10%)};
+    --type-color-1: #{$type-color--primary};
+    --type-color-2: #{lighten($type-color--primary, 10%)};
+    --type-color-3: #{lighten($type-color--primary, 20%)};
+    --type-color-4: #{lighten($type-color--primary, 40%)};
+
+    --type-color--error: #{$type-color--error};
+    --type-color--success: #{$type-color--success};
+    --type-color--brand: #{$type-color--brand};
+
+    --background-color-0: #{lighten($background-color--primary, 10%)};
+    --background-color-1: #{$background-color--primary};
+    --background-color-2: #{darken($background-color--primary, 10%)};
+    --background-color-3: #{darken($background-color--primary, 20%)};
+
+    --background-color--error: #{$background-color--error};
+    --background-color--success: #{$background-color--success};
+    --background-color--brand: #{$background-color--brand};
+
+
+    --border-color-0: #{darken($border-color--primary, 10%)};
+    --border-color-1: #{$type-color--primary};
+    --border-color-2: #{lighten($border-color--primary, 10%)};
+    --border-color-3: #{lighten($border-color--primary, 20%)};
+    --border-color-4: #{lighten($border-color--primary, 30%)};
+
+    --border-color--error: #{$border-color--error};
+    --border-color--success: #{$border-color--success};
+    --border-color--brand: #{$border-color--brand};
+
+    --accent-color: #{$accent-color};
+    --accent-color--light: #{$accent-color--light};
+
+    --grid-gap: var(--spacer-4);
+    --padding--site: var(--spacer-7);
+
+    @each $spacer in $spacer-mobile {
+        $i: index($spacer-mobile, $spacer);
+        --spacer-#{$i}: #{$spacer};
+    }    
+
+    --type-scale--min: 13px;
+    --type-scale-0: calc(#{$base-type-size} / #{$base-scale-ratio});
+    --type-scale-1: #{$base-type-size};
+    --type-scale-2: calc(var(--type-scale-1) * #{$base-scale-ratio});
+    --type-scale-3: calc(var(--type-scale-2) * #{$base-scale-ratio});
+    --type-scale-4: calc(var(--type-scale-3) * #{$base-scale-ratio});
+    --type-scale-5: calc(var(--type-scale-4) * #{$base-scale-ratio});
+    --type-scale-6: calc(var(--type-scale-5) * #{$base-scale-ratio});
+    --type-scale-7: calc(var(--type-scale-6) * #{$base-scale-ratio});
+    --type-scale-8: calc(var(--type-scale-7) * #{$base-scale-ratio});
+    --type-scale-9: calc(var(--type-scale-8) * #{$base-scale-ratio});
+    --type-scale-10: calc(var(--type-scale-9) * #{$base-scale-ratio});
+    --type-scale-11: calc(var(--type-scale-10) * #{$base-scale-ratio});
+    --type-scale-12: calc(var(--type-scale-11) * #{$base-scale-ratio});
+    --type-scale-13: calc(var(--type-scale-12) * #{$base-scale-ratio});
+    --type-scale-14: calc(var(--type-scale-13) * #{$base-scale-ratio});
+    --type-scale-15: calc(var(--type-scale-14) * #{$base-scale-ratio});
+    --type-scale-16: calc(var(--type-scale-15) * #{$base-scale-ratio});
+    --type-scale-17: calc(var(--type-scale-16) * #{$base-scale-ratio});
+    --type-scale-18: calc(var(--type-scale-17) * #{$base-scale-ratio});
+    --type-scale-19: calc(var(--type-scale-18) * #{$base-scale-ratio});
+    --type-scale-20: calc(var(--type-scale-19) * #{$base-scale-ratio});
+    --type-scale-21: calc(var(--type-scale-20) * #{$base-scale-ratio});
+    --type-scale-22: calc(var(--type-scale-21) * #{$base-scale-ratio});
+}

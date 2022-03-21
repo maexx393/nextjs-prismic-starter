@@ -1,0 +1,11 @@
+.container {
+    padding: var(--spacer-3) var(--padding--site);
+    nav {
+        ul {
+            display: flex;
+            li {
+                padding: 0 var(--spacer-3)
+            }
+        }
+    }
+}

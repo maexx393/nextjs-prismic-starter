@@ -1,0 +1,19 @@
+.container {
+    position: fixed;
+    max-width: 600px;
+    width: calc(100% - var(--spacer-6));
+    min-height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--background-color-1);
+    border-radius: var(--border-radius);
+    padding: var(--spacer-5);
+    z-index: 1;
+    .close {
+        position: absolute;
+        top: var(--spacer-4);
+        right: var(--spacer-4);
+        z-index: 1;
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "formSubmit": {
+        "contact": {
+            "de": "Abschicken",
+            "en": "Send"
+        },
+        "subscribe": {
+            "de": "Anmelden",
+            "en": "Subscribe"
+        }
+    },
+    "inputEmail": {
+        "label": {
+            "de": "Email",
+            "en": "Email"
+        },
+        "placeholder": {
+            "de": "Deine Email",
+            "en": "Your Email"
+        },
+        "error": {
+            "de": {
+                "missing": "Deine Email fehlt",
+                "failed": "Etwas stimmt mit deiner Email nicht"
+            },
+            "en": {
+                "missing": "Email is Missing",
+                "failed": "Something is wrong. Check your Email"
+            }
+        }
+    },
+    "inputLegal": {
+        "label": {
+            "de": "Hiermit bestätigst du unsere Datenschutzerklärung",
+            "en": "I agree that I have read and accepted the Privacy Policy"
+        },
+        "error": {
+            "de": {
+                "failed": "Du musst unsere Datenschutzbestimmungen akzeptieren"
+            },
+            "en": {
+                "failed": "You have to accept our legals"
+            }
+        }
+    },
+    "inputMessage": {
+        "label": {
+            "de": "Nachricht",
+            "en": "Message"
+        },
+        "placeholder": {
+            "de": "Sag hallo",
+            "en": "Say hi"
+        },
+        "error": {
+            "de": {
+                "missing": "Deine Nachricht fehlt",
+                "failed": "Deine Nachricht ist zu kurz"
+            },
+            "en": {
+                "missing": "Message is Missing",
+                "failed": "Your Message is too short"
+            }
+        }
+    },
+    "inputName": {
+        "label": {
+            "de": "Name",
+            "en": "Name"
+        },
+        "placeholder": {
+            "de": "Dein Name",
+            "en": "Your Name"
+        },
+        "error": {
+            "de": {
+                "missing": "Dein Name fehlt",
+                "failed": "Wir brauchen deinen Vor- und Nachnamen"
+            },
+            "en": {
+                "missing": "Name is Missing",
+                "failed": "We need your first and last name"
+            }
+        }
+    },
+    "inputPhone": {
+        "label": {
+            "de": "Telefon",
+            "en": "Phone"
+        },
+        "placeholder": {
+            "de": "Deine Telefonnummer",
+            "en": "Your Phone"
+        }
+    },
+    "languagePicker": {
+        "title": {
+            "de": "Wähle deine Sprache",
+            "en": "Choose your Language"
+        },
+        "description": {
+            "de": "Du kannst deine Sprache jederzeit ändern",
+            "en": "You can change your language at any time"
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "01519dcb-a156-482d-a12d-641389c08360",
+  "uid": "officiis-optio-voluptas",
+  "type": "menu",
+  "data": {
+    "main": [
+      {
+        "label": "synthesize rich blockchains",
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      {
+        "label": "monetize killer methodologies",
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "label": "maximize impactful platforms",
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      },
+      {
+        "label": "revolutionize killer methodologies",
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      },
+      {
+        "label": "visualize turn-key web-readiness",
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      },
+      {
+        "label": "monetize impactful mindshare",
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      }
+    ]
+  }
+}

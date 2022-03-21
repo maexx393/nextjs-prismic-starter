@@ -1,0 +1,100 @@
+
+@font-face {
+    font-family: 'base-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap; 
+    src: 
+        url('/fonts/base-regular.woff2') format('woff2'),
+        url('/fonts/base-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'base-medium';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: 
+        url('/fonts/base-medium.woff2') format('woff2'),
+        url('/fonts/base-medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'base-bold';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: 
+        url('/fonts/base-bold.woff2') format('woff2'),
+        url('/fonts/base-bold.woff') format('woff');
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p, li, a, span, blockquote, label, button, input, textarea, button {
+    font-family: 'base-regular', sans-serif;
+    font-weight: normal;
+    // font-size: $base-type-size;
+    color: $type-color--primary;
+    line-height: $base-line-height;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+    h2 {
+        font-family: 'base-bold', sans-serif;
+        font-size: var(--type-scale-12);
+        line-height: 1.125;
+    }
+
+    h3 {
+        font-family: 'base-bold', sans-serif;
+        font-size: var(--type-scale-6); 
+        line-height: 1.25;
+    }
+
+    p {
+        font-size: var(--type-scale-2);        
+        line-height: 1.6;
+        // letter-spacing: 0.02em;
+    }
+
+.form-range label,
+.form-input label,
+.form-textarea label {
+    font-family: 'base-bold', sans-serif;
+    font-size: var(--type-scale--min);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.form-range input, 
+.form-input input, 
+.form-textarea textarea {
+    font-family: 'base-regular', sans-serif;
+    font-size: var(--type-scale-0);
+}
+
+.form-submit button {
+    font-family: 'base-bold', sans-serif;
+    font-size: var(--type-scale-0);
+}
+
+.form-legal label {
+    font-size: var(--type-scale--min);
+    line-height: 1.25;
+    // letter-spacing: 0.02em;
+}
+
+.range-error-message,
+.textarea-error-message,
+.checkbox-error-message,
+.input-error-message {
+    font-size: var(--type-scale--min);
+    line-height: 1.25;
+    // letter-spacing: 0.02em;
+}

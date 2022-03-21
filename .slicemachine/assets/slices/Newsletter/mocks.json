@@ -1,0 +1,24 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "newsletter",
+    "items": [],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Whiteboard end-to-end relationships",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Sunt deserunt ad sunt nisi.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

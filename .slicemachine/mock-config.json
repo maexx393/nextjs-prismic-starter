@@ -1,0 +1,84 @@
+{
+  "slices": {
+    "ContactForm": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "contact_form",
+        "items": [],
+        "primary": {
+          "title": [
+            {
+              "type": "heading1",
+              "text": "Facilitate visionary functionalities",
+              "spans": []
+            }
+          ],
+          "description": [
+            {
+              "type": "paragraph",
+              "text": "Ad pariatur tempor proident occaecat nulla occaecat culpa consectetur mollit voluptate ullamco proident.",
+              "spans": []
+            }
+          ]
+        }
+      }
+    ],
+    "Newsletter": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "newsletter",
+        "items": [],
+        "primary": {
+          "title": [
+            {
+              "type": "heading1",
+              "text": "Cultivate clicks-and-mortar deliverables",
+              "spans": []
+            }
+          ],
+          "description": [
+            {
+              "type": "paragraph",
+              "text": "Proident velit laborum magna sint anim qui sint incididunt pariatur.",
+              "spans": []
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_cts": {
+    "contact": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      }
+    },
+    "home": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      }
+    },
+    "post": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      }
+    },
+    "contact-details": {
+      "social-provider": {}
+    },
+    "menu": {
+      "main": {}
+    }
+  }
+}
