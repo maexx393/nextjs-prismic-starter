@@ -1,5 +1,5 @@
 {
-  "name": "annemarie-lehmann",
+  "name": "nextjs-prismic-starter",
   "private": true,
   "scripts": {
     "dev": "next dev -p 3000",
