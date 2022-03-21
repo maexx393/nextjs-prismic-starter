@@ -2,17 +2,17 @@
 
 Create a prismic repo 
 ```bash
-    prismic theme --theme-url https://github.com/flhannich/nextjs-prismic-starter.git --conf prismicConfiguration.js 
+prismic theme --theme-url https://github.com/flhannich/nextjs-prismic-starter.git --conf prismicConfiguration.js 
 ```
 
 Install Prismic Slicemachine
 ```bash
-    npx @slicemachine/init
+npx @slicemachine/init
 ```
 
 Link our local copy to netlify
 ```bash
-    netlify link
+netlify link
 ```
 
 Create a .env.local
@@ -35,7 +35,7 @@ SMTP_RECIPIENT=<recipient@mail.com>
 
 Push envoirment variables to netlify
 ```bash
-    netlify env:import .env.local
+netlify env:import .env.local
 ```
 
 Run dev
@@ -45,12 +45,12 @@ netlify dev
 
 For https, open an new instance and run
 ```bash
- npm run dev-https
+npm run dev-https
 ```
 
 
 Run Slicemachine
 ```bash
-    npm run slicemachine  
+npm run slicemachine  
 ```
 So far, you have to push all costum types by hand to prismic
