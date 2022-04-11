@@ -43,7 +43,9 @@
                     "placeholder": "A nice description of your feature"
                   }
                 }
-              }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format",
+              "items": {}
             }
           ]
         },
@@ -73,12 +75,11 @@
         },
         "meta": {
           "fileName": "index",
-          "isDirectory": true,
           "extension": "js"
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/Users/think/Git/annemarie-lehmann/.slicemachine/assets/slices/ContactForm/default-slice/preview.png",
+            "path": "/Users/cryptodelic/Documents/Hashmail/.slicemachine/assets/slices/ContactForm/default-slice/preview.png",
             "width": 800,
             "height": 144
           }
@@ -126,7 +127,9 @@
                     "placeholder": "A nice description of your feature"
                   }
                 }
-              }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format",
+              "items": {}
             }
           ]
         },
@@ -156,7 +159,6 @@
         },
         "meta": {
           "fileName": "index",
-          "isDirectory": true,
           "extension": "js"
         },
         "screenshotPaths": {}
